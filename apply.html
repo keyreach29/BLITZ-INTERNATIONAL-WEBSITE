@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply Now | Blitz International</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>BLITZ INTERNATIONAL CONSULTANTS</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="page-content">
+    <h2>Application Form</h2>
+    <form action="https://formsubmit.co/info@blitzinternational.co.ke" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required><br/>
+      <input type="email" name="email" placeholder="Email Address" required><br/>
+      <input type="tel" name="phone" placeholder="Phone Number" required><br/>
+      <select name="country" required>
+        <option value="">Select Country</option>
+        <option>Canada</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Australia</option>
+      </select><br/>
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option>School Application</option>
+        <option>Job Placement</option>
+        <option>IELTS Booking/Training</option>
+        <option>Visa Coaching</option>
+      </select><br/>
+      <input type="file" name="cv"><br/>
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Blitz International Consultants</p>
+  </footer>
+</body>
+</html>
